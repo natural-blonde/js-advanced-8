@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="discount" *ngFor="let discount of discountArray">
+        <p><img height="300px" width="400px" [src]="discount.image" alt=""></p>
+        <p class="tittle">{{discount.tittle}}</p>
+        <p>{{discount.name}}</p>
+        <p>{{discount.description}}</p>
+    </div>
+</div>
